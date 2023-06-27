@@ -1,0 +1,48 @@
+<div class="wrapper">
+  <div class="header">
+    <span>Dog modification</span>
+    <mat-icon (click)="closeDialog()">close</mat-icon>
+  </div>
+  <div class="data-container">
+    <form [formGroup]="formGroup">
+      <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input matInput placeholder="Name" formControlName="name">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Bred for</mat-label>
+        <input matInput placeholder="Bred for" formControlName="bredFor">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Height</mat-label>
+        <input matInput placeholder="Height" formControlName="height">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Life span</mat-label>
+        <input matInput placeholder="Life span" formControlName="lifeSpan">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Origin</mat-label>
+        <input matInput placeholder="Origin" formControlName="origin">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Temperament</mat-label>
+        <input matInput placeholder="Temperament" formControlName="temperament">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Weight</mat-label>
+        <input matInput placeholder="Weight" formControlName="weight">
+      </mat-form-field>
+    </form>
+
+    <div class="button-wrapper">
+      <button mat-raised-button color="primary" (click)="createJsonTextFile()">Save data to txt file</button>
+    </div>
+  </div>
+</div>

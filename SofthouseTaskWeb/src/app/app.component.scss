@@ -1,0 +1,25 @@
+.page-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .toolbar {
+        background-color: bisque;
+        justify-content: space-between;
+        flex: 0 1 auto;
+    }
+
+    .routes {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 0%;
+        overflow: scroll;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .page-wrapper .toolbar {
+        flex-direction: column;
+        height: auto !important;
+    }
+  }

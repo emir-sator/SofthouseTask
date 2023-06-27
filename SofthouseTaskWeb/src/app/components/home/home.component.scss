@@ -1,0 +1,11 @@
+.dogs-wrapper {
+    height: 100vh;
+
+    .background-image {
+        background-image: url("../../../assets/images/dogs.PNG");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

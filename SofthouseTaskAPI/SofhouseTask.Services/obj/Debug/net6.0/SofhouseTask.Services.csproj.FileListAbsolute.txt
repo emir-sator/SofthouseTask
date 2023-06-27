@@ -1,0 +1,17 @@
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\bin\Debug\net6.0\SofhouseTask.Services.deps.json
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\bin\Debug\net6.0\SofhouseTask.Services.dll
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\bin\Debug\net6.0\SofhouseTask.Services.pdb
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\bin\Debug\net6.0\SofthouseTask.DTO.dll
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\bin\Debug\net6.0\SofthouseTask.RestSharp.dll
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\bin\Debug\net6.0\SofthouseTask.RestSharp.pdb
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\bin\Debug\net6.0\SofthouseTask.DTO.pdb
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\obj\Debug\net6.0\SofhouseTask.Services.csproj.AssemblyReference.cache
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\obj\Debug\net6.0\SofhouseTask.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\obj\Debug\net6.0\SofhouseTask.Services.AssemblyInfoInputs.cache
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\obj\Debug\net6.0\SofhouseTask.Services.AssemblyInfo.cs
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\obj\Debug\net6.0\SofhouseTask.Services.csproj.CoreCompileInputs.cache
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\obj\Debug\net6.0\SofhouseTask.Services.csproj.CopyComplete
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\obj\Debug\net6.0\SofhouseTask.Services.dll
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\obj\Debug\net6.0\refint\SofhouseTask.Services.dll
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\obj\Debug\net6.0\SofhouseTask.Services.pdb
+C:\Users\emir-sator\source\repos\SofthouseTask\SofhouseTask.Services\obj\Debug\net6.0\ref\SofhouseTask.Services.dll

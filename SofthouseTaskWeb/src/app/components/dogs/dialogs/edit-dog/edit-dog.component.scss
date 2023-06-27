@@ -1,0 +1,35 @@
+.wrapper {
+    .header {
+        display: flex;
+        flex-direction: row;
+        background-color: bisque;
+        padding: 20px;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        mat-icon {
+            cursor: pointer;
+            border: 2px solid #673ab7;
+            border-radius: 50%;
+            color: #673ab7;
+        }
+    }
+
+    .data-container {
+        padding: 20px;
+
+        form mat-form-field {
+            width: 100%;
+        }
+
+        .button-wrapper {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/ng-openapi-gen/ng-openapi-gen-schema.json",
+  "input": "http://localhost:23975/swagger/v1/swagger.json",
+  "output": "./src/auto-generated-api",
+  "minParamsForContainer": 2,
+  "defaultTag": "SofthouseTask",
+  "removeStaleFiles": true,
+  "modelIndex": true,
+  "serviceIndex": true,
+  "apiModule": true,
+  "enumModule": true,
+  "generateExamples": false
+}

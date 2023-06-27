@@ -1,0 +1,34 @@
+<div class="wrapper">
+  <div class="dogs-wrapper">
+    <div *ngFor="let dog of dogs">
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>{{dog.name}}</mat-card-title>
+          <mat-card-subtitle>{{dog.breedGroup}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image [src]="dog.image?.url" alt="" style="width: 400px; height: 300px;">
+        <mat-card-content>
+          <div class="dog-info">
+            <i>{{dog.temperament}}</i>
+            <span style="font-weight: 600;">{{dog.bredFor}}</span>
+            <span>Weight: {{dog.weight?.metric}} kgs</span>
+            <span>Height: {{dog.height?.metric}} cm</span>
+            <span>Life span: {{dog.lifeSpan}}</span>
+            <span>Origin: {{dog.origin ? dog.origin : 'Not specified'}}</span>
+            <p></p>
+
+          </div>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="primary">Add to favorite</button>
+          <button mat-raised-button (click)="editDog(dog)" color="accent">Edit</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="button-wrapper">
+      <button mat-raised-button color="primary">Load more</button>
+    </div>
+  </div>
+
+</div>

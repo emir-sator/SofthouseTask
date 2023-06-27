@@ -1,0 +1,46 @@
+.wrapper {
+    padding: 20px;
+
+    .dogs-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 80px;
+
+        div .example-card {
+            max-width: 400px;
+
+            mat-card-content {
+                height: 150px;
+
+                .dog-info {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 3px;
+                }
+            }
+        }
+
+        .button-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        mat-card-actions {
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .wrapper .dogs-wrapper {
+        justify-content: center;
+    }
+
+    .wrapper .dogs-wrapper div .example-card {
+        max-width: 250px;
+    }
+}
