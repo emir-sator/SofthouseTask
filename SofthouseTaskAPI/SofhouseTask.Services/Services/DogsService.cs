@@ -5,39 +5,28 @@ using RestSharp;
 using SofthouseTask.DTO.Paging;
 using SofthouseTask.DTO.Models.Request;
 using SofthouseTask.DTO.Models.Response.Dog;
+using System.Reflection.PortableExecutable;
 
 namespace SofthouseTask.Services.Services
 {
+                                // base service for getting some default configs
     public class DogsService : BaseService
     {
+        private string endpoint;
+        private readonly Dictionary<string, string> headers;
         public DogsService(IConfiguration config) : base(config)
         {
+            endpoint = _config["ApiConfig:Endpoints:Breeds"];
+            headers = new Dictionary<string, string>()
+            {
+                { "Content-Type","application/json" },
+            };
         }
 
-        //private readonly IConfiguration _config;
-        //private readonly IClient _client;
-        //private readonly string _apiUrl;
-        //private readonly string _apiKey;
-        //private readonly string _defaultMockUser = "demo_250623";
-
-        //public DogsService(IConfiguration config)
-        //{
-        //    _config = config;
-        //    _client = new DefaultClient();
-        //    _apiUrl = _config["ApiConfig:ApiUrl"];
-        //    _apiKey = _config["ApiConfig;ApiKey"];
-        //}
-
-        public PagedResult<Dog> GetDogs(GetDogsRequest request)
+        public PagedResult<DogResponse> GetDogs(GetDogsRequest request)
         {
             try
             {
-                var endpoint = _config["ApiConfig:Endpoints:Breeds"];
-                var headers = new Dictionary<string, string>()
-                {
-                    {"Content-Type","application/json" },
-                };
-
                 //Create a request using the request builder method
                 var apiRequest = new GetRequestBuilder()
                     .WithUrl(_apiUrl)
@@ -48,23 +37,21 @@ namespace SofthouseTask.Services.Services
 
                 var response = _client.GetClient().Execute(apiRequest);
 
-                var results = JsonConvert.DeserializeObject<List<Dog>>(response.Content);
+                var results = JsonConvert.DeserializeObject<List<DogResponse>>(response.Content);
 
-                var dogs = new PagedResult<Dog>
+                return new PagedResult<DogResponse>
                 {
                     Page = request.Page,
                     Limit = request.Limit,
                     TotalResults = results.Count,
                     Results = results
                 };
-                return dogs;
             }
             catch (Exception ex)
             {
                 throw new Exception($"Error executing the request: {ex.Message}");
             }
         }
-
 
         private Dictionary<string, string> GetQueryParameters(PagedRequestBase request)
         {

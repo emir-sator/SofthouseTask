@@ -24,24 +24,6 @@ builder.Services.AddSwaggerGen(c =>
          }
      });
 });
-//builder.Services.AddSwaggerGen(c =>
-//{
-//    c.CustomSchemaIds(s =>
-//    {
-//        string schemaId = string.Empty;
-//        if (s.IsGenericType)
-//        {
-//            string typeName = s.Name;
-//            if (typeName.Contains('`')) schemaId = typeName.Substring(0, typeName.IndexOf("`"));
-//            schemaId = $"{s.GenericTypeArguments.FirstOrDefault()?.Name}{schemaId}";
-//        }
-//        else
-//        {
-//            schemaId = s.Name;
-//        }
-//        return schemaId;
-//    });
-//});
 
 builder.Services.AddCors(options => options.AddPolicy(name: "SofthouseTask",
     policy =>

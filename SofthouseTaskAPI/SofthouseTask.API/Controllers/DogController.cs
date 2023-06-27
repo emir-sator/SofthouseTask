@@ -18,7 +18,7 @@ namespace SofthouseTask.Controllers
         }
 
         [HttpGet]
-        public ActionResult<PagedResult<Dog>> GetDogs([FromQuery] GetDogsRequest request)
+        public ActionResult<PagedResult<DogResponse>> GetDogs([FromQuery] GetDogsRequest request)
         {
             return Ok(_dogsService.GetDogs(request));
         }

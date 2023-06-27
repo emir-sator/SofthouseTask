@@ -1,0 +1,51 @@
+.wrapper {
+    padding: 20px;
+
+    .favourites-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 80px;
+
+        div .example-card {
+            max-width: 400px;
+
+            mat-card-content {
+                height: 150px;
+
+                .dog-info {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 3px;
+                }
+            }
+        }
+
+        .button-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        mat-card-actions {
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+}
+
+.disabled {
+    background-color: gray;;
+    color: lightgray;
+}
+
+@media only screen and (max-width: 450px) {
+    .wrapper .favourites-wrapper {
+        justify-content: center;
+    }
+
+    .wrapper .favourites-wrapper div .example-card {
+        max-width: 250px;
+    }
+}

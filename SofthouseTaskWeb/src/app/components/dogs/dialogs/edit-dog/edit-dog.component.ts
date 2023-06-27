@@ -1,7 +1,8 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
-import { Dog } from 'src/auto-generated-api/models';
+import { AlertService } from 'src/app/services/alert.service';
+import { DogResponse } from 'src/auto-generated-api/models';
 import { JsonFileService } from 'src/auto-generated-api/services';
 
 @Component({
@@ -24,7 +25,8 @@ export class EditDogComponent implements OnInit {
     public dialogRef: MatDialogRef<EditDogComponent>,
     private fb: FormBuilder,
     public jsonFileService: JsonFileService,
-    @Inject(MAT_DIALOG_DATA) public data: Dog
+    public alertService: AlertService,
+    @Inject(MAT_DIALOG_DATA) public data: DogResponse
   ) { }
 
   ngOnInit() {
@@ -47,9 +49,10 @@ export class EditDogComponent implements OnInit {
 
   createJsonTextFile(){
     const data = this.formGroup.value;
+
     this.jsonFileService.createJsonTextFile({body: data}).subscribe(() => {
+      this.alertService.success('File has been successfully saved to a txt file!', 5000);
       this.dialogRef.close();
     },(error) => console.error(error));
-    return;
   }
 }

@@ -2,7 +2,7 @@
 
 namespace SofthouseTask.DTO.Models.Response
 {
-    public class Image
+    public class ImageResponse
     {
         [JsonProperty("id")]
         public string? Id { get; set; }

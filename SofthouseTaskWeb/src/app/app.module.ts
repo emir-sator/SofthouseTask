@@ -17,7 +17,13 @@ import { EditDogComponent } from './components/dogs/dialogs/edit-dog/edit-dog.co
 import { FavouritesComponent } from './components/favourites/favourites.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {MatInputModule} from '@angular/material/input';
+import { MatInputModule } from '@angular/material/input';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { CommonModule } from '@angular/common';
+import { AlertComponent } from './components/shared/alert-message/alert.component';
+import { AlertMessageComponent } from './components/shared/alert-message/alert-message.component';
+import { AlertService } from './services/alert.service';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 @NgModule({
   declarations: [
@@ -25,10 +31,13 @@ import {MatInputModule} from '@angular/material/input';
     HomeComponent,
     DogsComponent,
     FavouritesComponent,
-    EditDogComponent
+    EditDogComponent,
+    AlertComponent,
+    AlertMessageComponent
   ],
   imports: [
     BrowserModule,
+    CommonModule,
     HttpClientModule,
     ApiModule.forRoot({ rootUrl: environment.apiUrl }),
     AppRoutingModule,
@@ -39,11 +48,13 @@ import {MatInputModule} from '@angular/material/input';
     MatCardModule,
     MatDialogModule,
     MatIconModule,
-    FormsModule, 
-    MatFormFieldModule, 
-    MatInputModule
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSnackBarModule,
+    MatPaginatorModule
   ],
-  providers: [],
+  providers: [AlertService],
   bootstrap: [AppComponent],
   entryComponents: [EditDogComponent]
 })

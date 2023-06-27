@@ -1,1 +1,0 @@
-{"name":"Afghan Hound","bredFor":"Coursing and hunting","height":"64 - 69","lifeSpan":"10 - 13 years","origin":"Afghanistan, Iran, Pakistan","temperament":"Aloof, Clownish, Dignified, Independent, Happy","weight":"23 - 27"}

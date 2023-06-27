@@ -10,7 +10,6 @@ namespace SofthouseTask.Services.Services
         public readonly IClient _client;
         public readonly string _apiUrl;
         public readonly string _apiKey;
-        public readonly string _defaultMockUser = "demo_250623";
         public BaseService(IConfiguration config)
         {
             _config = config;

@@ -19,14 +19,15 @@ namespace SofthouseTask.Services.Services
                 // Combine the folder path with a file name to get a file path
                 string filePath = Path.Combine(folderPath, name);
 
-                // for better readability
+                // for better json string readability
                 JsonSerializerOptions options = new JsonSerializerOptions
                 {
                     WriteIndented = true
                 };
+
                 using (StreamWriter writer = new StreamWriter(filePath))
                 {
-                    var json = System.Text.Json.JsonSerializer.Serialize(obj, options);
+                    var json = JsonSerializer.Serialize(obj, options);
                     writer.Write(json);
                 }
             }

@@ -16,8 +16,4 @@
     <ProjectReference Include="..\SofthouseTask.RestSharp\SofthouseTask.RestSharp.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="JsonTextFiles\" />
-  </ItemGroup>
-
 </Project>

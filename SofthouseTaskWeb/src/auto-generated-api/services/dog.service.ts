@@ -9,7 +9,7 @@ import { RequestBuilder } from '../request-builder';
 import { Observable } from 'rxjs';
 import { map, filter } from 'rxjs/operators';
 
-import { DogPagedResult } from '../models/dog-paged-result';
+import { DogResponsePagedResult } from '../models/dog-response-paged-result';
 
 @Injectable({
   providedIn: 'root',
@@ -39,7 +39,7 @@ export class DogService extends BaseService {
   },
   context?: HttpContext
 
-): Observable<StrictHttpResponse<DogPagedResult>> {
+): Observable<StrictHttpResponse<DogResponsePagedResult>> {
 
     const rb = new RequestBuilder(this.rootUrl, DogService.GetDogsPath, 'get');
     if (params) {
@@ -54,7 +54,7 @@ export class DogService extends BaseService {
     })).pipe(
       filter((r: any) => r instanceof HttpResponse),
       map((r: HttpResponse<any>) => {
-        return r as StrictHttpResponse<DogPagedResult>;
+        return r as StrictHttpResponse<DogResponsePagedResult>;
       })
     );
   }
@@ -71,10 +71,10 @@ export class DogService extends BaseService {
   },
   context?: HttpContext
 
-): Observable<DogPagedResult> {
+): Observable<DogResponsePagedResult> {
 
     return this.getDogs$Plain$Response(params,context).pipe(
-      map((r: StrictHttpResponse<DogPagedResult>) => r.body as DogPagedResult)
+      map((r: StrictHttpResponse<DogResponsePagedResult>) => r.body as DogResponsePagedResult)
     );
   }
 
@@ -90,7 +90,7 @@ export class DogService extends BaseService {
   },
   context?: HttpContext
 
-): Observable<StrictHttpResponse<DogPagedResult>> {
+): Observable<StrictHttpResponse<DogResponsePagedResult>> {
 
     const rb = new RequestBuilder(this.rootUrl, DogService.GetDogsPath, 'get');
     if (params) {
@@ -105,7 +105,7 @@ export class DogService extends BaseService {
     })).pipe(
       filter((r: any) => r instanceof HttpResponse),
       map((r: HttpResponse<any>) => {
-        return r as StrictHttpResponse<DogPagedResult>;
+        return r as StrictHttpResponse<DogResponsePagedResult>;
       })
     );
   }
@@ -122,10 +122,10 @@ export class DogService extends BaseService {
   },
   context?: HttpContext
 
-): Observable<DogPagedResult> {
+): Observable<DogResponsePagedResult> {
 
     return this.getDogs$Json$Response(params,context).pipe(
-      map((r: StrictHttpResponse<DogPagedResult>) => r.body as DogPagedResult)
+      map((r: StrictHttpResponse<DogResponsePagedResult>) => r.body as DogResponsePagedResult)
     );
   }
 

@@ -2,7 +2,7 @@
 
 namespace SofthouseTask.DTO.Models.Response.Favourite
 {
-    public class Favourite
+    public class FavouriteResponse
     {
         [JsonProperty("id")]
         public long Id { get; set; }
@@ -20,6 +20,6 @@ namespace SofthouseTask.DTO.Models.Response.Favourite
         public DateTimeOffset CreatedAt { get; set; }
 
         [JsonProperty("image")]
-        public Image Image { get; set; }
+        public ImageResponse Image { get; set; }
     }
 }

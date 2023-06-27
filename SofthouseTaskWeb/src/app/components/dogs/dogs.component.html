@@ -7,7 +7,7 @@
           <mat-card-title>{{dog.name}}</mat-card-title>
           <mat-card-subtitle>{{dog.breedGroup}}</mat-card-subtitle>
         </mat-card-header>
-        <img mat-card-image [src]="dog.image?.url" alt="" style="width: 400px; height: 300px;">
+        <img mat-card-image [src]="dog.image?.url" alt="">
         <mat-card-content>
           <div class="dog-info">
             <i>{{dog.temperament}}</i>
@@ -21,13 +21,13 @@
           </div>
         </mat-card-content>
         <mat-card-actions>
-          <button mat-raised-button color="primary">Add to favorite</button>
+          <button mat-raised-button color="primary" (click)="addToFavourite(dog.image?.id)" [disabled]="doesItInclude(dog.image?.id)" [ngClass]="{'disabled' : imageIncludedInFavourites}"> {{imageIncludedInFavourites ? 'Added' : 'Add to favorite' }}</button>
           <button mat-raised-button (click)="editDog(dog)" color="accent">Edit</button>
         </mat-card-actions>
       </mat-card>
     </div>
     <div class="button-wrapper">
-      <button mat-raised-button color="primary">Load more</button>
+      <button mat-raised-button color="primary" (click)="loadMoreDogs()">Load more</button>
     </div>
   </div>
 

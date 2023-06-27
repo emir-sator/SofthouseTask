@@ -1,3 +1,17 @@
-<p>
-  favourites works!
-</p>
+<div class="wrapper">
+  <div class="favourites-wrapper">
+    <div *ngFor="let f of favourites">
+      <mat-card class="example-card">
+        <img mat-card-image [src]="f.image?.url" alt="" style="width: 400px; height: 300px;">
+        <mat-card-actions>
+          <button mat-raised-button (click)="removeFromFavourites(f.id)" color="warn">Unfavourite</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="button-wrapper">
+    </div>
+  </div>
+  <mat-paginator #paginator
+  (page)="pageChanged($event)">
+  </mat-paginator>
+</div>

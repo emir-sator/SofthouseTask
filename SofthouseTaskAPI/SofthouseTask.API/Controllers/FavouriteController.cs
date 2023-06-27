@@ -17,7 +17,7 @@ namespace SofthouseTask.Controllers
         }
 
         [HttpGet]
-        public ActionResult<PagedResult<Favourite>> GetFavourites([FromQuery] GetFavoritesRequest request)
+        public ActionResult<PagedResult<FavouriteResponse>> GetFavourites([FromQuery] GetFavoritesRequest request)
         {
             return Ok(_favouritesService.GetFavourites(request));
         }
@@ -26,6 +26,13 @@ namespace SofthouseTask.Controllers
         public ActionResult<long> AddFavorite([FromBody] AddFavoriteImageRequest request)
         {
             return Ok(_favouritesService.AddFavorite(request));
+        }
+
+        [HttpDelete]
+        public ActionResult<long> RemoveFromFavorites(long id)
+        {
+            _favouritesService.RemoveFromFavorites(id);
+            return Ok();
         }
     }
 }

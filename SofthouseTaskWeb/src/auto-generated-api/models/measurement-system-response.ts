@@ -1,6 +1,6 @@
 /* tslint:disable */
 /* eslint-disable */
-export interface MeasurementSystem {
+export interface MeasurementSystemResponse {
   imperial?: null | string;
   metric?: null | string;
 }

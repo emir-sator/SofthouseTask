@@ -2,7 +2,7 @@
 
 namespace SofthouseTask.DTO.Models.Response.Dog
 {
-    public class MeasurementSystem
+    public class MeasurementSystemResponse
     {
         [JsonProperty("imperial")]
         public string Imperial { get; set; }

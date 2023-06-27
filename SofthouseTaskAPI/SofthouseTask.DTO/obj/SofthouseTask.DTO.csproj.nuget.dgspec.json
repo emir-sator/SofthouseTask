@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emir-sator\\source\\repos\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj": {}
+    "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emir-sator\\source\\repos\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj": {
+    "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emir-sator\\source\\repos\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj",
         "projectName": "SofthouseTask.DTO",
-        "projectPath": "C:\\Users\\emir-sator\\source\\repos\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj",
+        "projectPath": "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj",
         "packagesPath": "C:\\Users\\emir-sator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emir-sator\\source\\repos\\SofthouseTaskAPI\\SofthouseTask.DTO\\obj\\",
+        "outputPath": "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emir-sator\\AppData\\Roaming\\NuGet\\NuGet.Config",

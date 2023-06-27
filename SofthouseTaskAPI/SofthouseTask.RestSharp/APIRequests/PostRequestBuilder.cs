@@ -57,7 +57,6 @@ namespace SofthouseTask.RestSharp.APIRequests
             return this;
         }
 
-
         public PostRequestBuilder WithParameters(Dictionary<string, string> wwwForm)
         {
             WithParameters(wwwForm, _restRequest);

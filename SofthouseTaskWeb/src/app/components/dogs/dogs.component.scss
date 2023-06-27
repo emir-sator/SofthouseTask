@@ -35,6 +35,11 @@
     }
 }
 
+.disabled {
+    background-color: gray;;
+    color: lightgray;
+}
+
 @media only screen and (max-width: 450px) {
     .wrapper .dogs-wrapper {
         justify-content: center;

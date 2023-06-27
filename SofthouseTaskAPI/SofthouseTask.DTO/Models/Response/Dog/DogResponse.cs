@@ -2,13 +2,13 @@
 
 namespace SofthouseTask.DTO.Models.Response.Dog
 {
-    public class Dog
+    public class DogResponse
     {
         [JsonProperty("weight")]
-        public MeasurementSystem? Weight { get; set; } // kgs
+        public MeasurementSystemResponse? Weight { get; set; } // kgs
 
         [JsonProperty("height")]
-        public MeasurementSystem? Height { get; set; } // cms
+        public MeasurementSystemResponse? Height { get; set; } // cms
 
         [JsonProperty("id")]
         public long Id { get; set; }
@@ -34,6 +34,6 @@ namespace SofthouseTask.DTO.Models.Response.Dog
         [JsonProperty("reference_image_id")]
         public string? ReferenceImageId { get; set; }
         [JsonProperty("image")]
-        public Image? Image { get; set; }
+        public ImageResponse? Image { get; set; }
     }
 }
