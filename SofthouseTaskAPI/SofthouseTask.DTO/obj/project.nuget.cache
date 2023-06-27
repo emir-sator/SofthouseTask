@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jfMgtHm4jALqwRmkbNXqYBWTMFbMvmq1KKkOJi+xNNnDb9rLNXtvMJ3lxjNUbnpFgd/06o/Sqg/l0zfq+tsT9g==",
+  "dgSpecHash": "tHckUEUobSlWcKXNBbiLMj4dqbC8tRPIULbCDy13jxR896dljXwtXQoKO4dgJOCY/TCfSvbEkKI/g2SxVZZYSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj",
+  "projectFilePath": "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emir-sator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

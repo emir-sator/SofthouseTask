@@ -35,7 +35,6 @@ export class FavouritesComponent implements OnInit {
     }).subscribe(response => {
       if (response.results) {
         this.favourites = response.results;
-        console.log("paginator", this.paginator);
         this.paginator.length = response.totalResults;
         this.paginator.pageIndex = --response.page;
         this.paginator.pageSize = this.limit;
@@ -52,7 +51,6 @@ export class FavouritesComponent implements OnInit {
   }
 
   pageChanged(data) {
-    console.log("data", data);
     this.page = data.pageIndex;
     this.limit = data.pageSize;
     this.getFavoruites();

@@ -36,7 +36,6 @@ export class AlertComponent implements OnInit {
         },
       };
 
-      console.log("config", config);
       this.snackBarRef = this.snackBar.openFromComponent(AlertMessageComponent, config);
       this.snackBarRef.instance.snackBarRefAlertMessageComponent = this.snackBarRef;
     });

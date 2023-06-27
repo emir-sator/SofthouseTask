@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YHL9l55/XF+sbuqxcCwPVbGKXjygLVWHXXVfJKmdZFIva4VxW+Ot2jchV4P5h8EMuNxDW/tu8JibBlrefXNelw==",
+  "dgSpecHash": "8F6L4qHBewtEh+VnS11CSOwcPYQR+mapEM3oo+jGtUwJn5aH+IzPBaN4joHJNXlx8d1isOOZDypW/iGvzydplw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.API\\SofthouseTask.API.csproj",
+  "projectFilePath": "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.API\\SofthouseTask.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emir-sator\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\emir-sator\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

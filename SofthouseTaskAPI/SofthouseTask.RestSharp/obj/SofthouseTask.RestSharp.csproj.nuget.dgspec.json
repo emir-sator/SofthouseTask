@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj": {}
+    "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj": {
+    "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj",
+        "projectUniqueName": "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj",
         "projectName": "SofthouseTask.RestSharp",
-        "projectPath": "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj",
+        "projectPath": "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj",
         "packagesPath": "C:\\Users\\emir-sator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\obj\\",
+        "outputPath": "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emir-sator\\AppData\\Roaming\\NuGet\\NuGet.Config",

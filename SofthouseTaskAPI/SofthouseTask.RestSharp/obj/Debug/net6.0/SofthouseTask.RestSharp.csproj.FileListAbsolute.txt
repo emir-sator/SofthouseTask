@@ -46,3 +46,15 @@ C:\Users\emir-sator\Desktop\task\SofthouseTask\SofthouseTaskAPI\SofthouseTask.Re
 C:\Users\emir-sator\Desktop\task\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\obj\Debug\net6.0\refint\SofthouseTask.RestSharp.dll
 C:\Users\emir-sator\Desktop\task\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\obj\Debug\net6.0\SofthouseTask.RestSharp.pdb
 C:\Users\emir-sator\Desktop\task\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\obj\Debug\net6.0\ref\SofthouseTask.RestSharp.dll
+C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\bin\Debug\net6.0\SofthouseTask.RestSharp.deps.json
+C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\bin\Debug\net6.0\SofthouseTask.RestSharp.dll
+C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\bin\Debug\net6.0\SofthouseTask.RestSharp.pdb
+C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\obj\Debug\net6.0\SofthouseTask.RestSharp.csproj.AssemblyReference.cache
+C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\obj\Debug\net6.0\SofthouseTask.RestSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\obj\Debug\net6.0\SofthouseTask.RestSharp.AssemblyInfoInputs.cache
+C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\obj\Debug\net6.0\SofthouseTask.RestSharp.AssemblyInfo.cs
+C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\obj\Debug\net6.0\SofthouseTask.RestSharp.csproj.CoreCompileInputs.cache
+C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\obj\Debug\net6.0\SofthouseTask.RestSharp.dll
+C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\obj\Debug\net6.0\refint\SofthouseTask.RestSharp.dll
+C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\obj\Debug\net6.0\SofthouseTask.RestSharp.pdb
+C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.RestSharp\obj\Debug\net6.0\ref\SofthouseTask.RestSharp.dll

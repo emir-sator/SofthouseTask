@@ -3606,11 +3606,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofhouseTask.Services\\SofthouseTask.Services.csproj",
+      "projectUniqueName": "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofhouseTask.Services\\SofthouseTask.Services.csproj",
       "projectName": "SofthouseTask.Services",
-      "projectPath": "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofhouseTask.Services\\SofthouseTask.Services.csproj",
+      "projectPath": "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofhouseTask.Services\\SofthouseTask.Services.csproj",
       "packagesPath": "C:\\Users\\emir-sator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofhouseTask.Services\\obj\\",
+      "outputPath": "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofhouseTask.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emir-sator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3627,11 +3627,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj": {
-              "projectPath": "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj"
+            "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj": {
+              "projectPath": "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.DTO\\SofthouseTask.DTO.csproj"
             },
-            "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj": {
-              "projectPath": "C:\\Users\\emir-sator\\Desktop\\task\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj"
+            "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj": {
+              "projectPath": "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj"
             }
           }
         }
