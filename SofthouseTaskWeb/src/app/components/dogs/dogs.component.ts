@@ -3,6 +3,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { DogResponse, FavouriteResponse } from 'src/auto-generated-api/models';
 import { DogService, FavouriteService } from 'src/auto-generated-api/services';
 import { EditDogComponent } from './dialogs/edit-dog/edit-dog.component';
+import { AlertService } from 'src/app/services/alert.service';
 
 
 @Component({
@@ -21,7 +22,8 @@ export class DogsComponent implements OnInit {
   constructor(
     public dogService: DogService,
     public favouriteService: FavouriteService,
-    public dialog: MatDialog
+    public dialog: MatDialog,
+    public alertService: AlertService
   ) { }
 
   ngOnInit() {
@@ -39,12 +41,15 @@ export class DogsComponent implements OnInit {
       Page: this.page
     });
   }
+
   getDogs() {
     this.getDogsRequest().subscribe(response => {
       if (response.results) {
         this.dogs = response.results
       }
-    }, (error) => console.error(error));
+    }, (error) => {
+      this.alertService.error(error.error.title, 5000);
+    });
   }
 
   getFavoruites() {
@@ -58,7 +63,9 @@ export class DogsComponent implements OnInit {
       if (response.results) {
         this.favourites = response.results;
       }
-    }, (error) => console.error(error));
+    }, (error) => {
+      this.alertService.error(error.error.title, 5000);
+    });
   }
 
   doesItInclude(imageId: string) {
@@ -87,7 +94,9 @@ export class DogsComponent implements OnInit {
       }
     }).subscribe(() => {
       window.location.reload();
-    }, (error) => console.error(error));
+    }, (error) => {
+      this.alertService.error(error.error.title, 5000);
+    });
   }
 
   loadMoreDogs() {
@@ -96,7 +105,8 @@ export class DogsComponent implements OnInit {
       if (response.results) {
         this.dogs.push(...response.results);
       }
-    }, (error) => console.error(error));
-   
+    }, (error) => {
+      this.alertService.error(error.error.title, 5000);
+    });
   }
 }

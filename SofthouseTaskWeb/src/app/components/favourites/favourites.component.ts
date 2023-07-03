@@ -40,14 +40,18 @@ export class FavouritesComponent implements OnInit {
         this.paginator.pageSize = this.limit;
         this.paginator.pageSizeOptions = this.pageSizeOptions;
       }
-    }, (error) => console.error(error));
+    }, (error) => {
+      this.alertService.error(error.error.title, 5000);
+    });
   }
 
   removeFromFavourites(id: number) {
-    this.favouriteService.removeFromFavorites$Json({id}).subscribe(() => {
+    this.favouriteService.removeFromFavorites$Json({ id }).subscribe(() => {
       this.alertService.success('Image has been successfully removed from the favourites.');
       window.location.reload();
-    }, (error) => console.error(error));
+    }, (error) => {
+      this.alertService.error(error.error.title, 5000);
+    });
   }
 
   pageChanged(data) {

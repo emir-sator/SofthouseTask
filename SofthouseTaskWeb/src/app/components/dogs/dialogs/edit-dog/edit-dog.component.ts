@@ -47,12 +47,14 @@ export class EditDogComponent implements OnInit {
     this.formGroup.controls.weight.patchValue(this.data.weight?.metric ? this.data.weight.metric : '');
   }
 
-  createJsonTextFile(){
+  createJsonTextFile() {
     const data = this.formGroup.value;
 
-    this.jsonFileService.createJsonTextFile({body: data}).subscribe(() => {
+    this.jsonFileService.createJsonTextFile({ body: data }).subscribe(() => {
       this.alertService.success('Data has been successfully saved to a txt file!', 5000);
       this.dialogRef.close();
-    },(error) => console.error(error));
+    }, (error) => {
+      this.alertService.error(error.statusText, 5000);
+    });
   }
 }
