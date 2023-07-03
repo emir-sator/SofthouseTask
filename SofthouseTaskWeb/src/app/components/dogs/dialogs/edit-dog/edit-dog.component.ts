@@ -51,7 +51,7 @@ export class EditDogComponent implements OnInit {
     const data = this.formGroup.value;
 
     this.jsonFileService.createJsonTextFile({body: data}).subscribe(() => {
-      this.alertService.success('File has been successfully saved to a txt file!', 5000);
+      this.alertService.success('Data has been successfully saved to a txt file!', 5000);
       this.dialogRef.close();
     },(error) => console.error(error));
   }

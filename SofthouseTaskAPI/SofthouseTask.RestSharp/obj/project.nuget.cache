@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BH9e6oF3UHjePHp05O/nsLUQZ3MP0rihvlusf7bb7QaGusJDiZehl1wWVFCx37GG0Cp8h3r6ac4nru7ggICEZQ==",
+  "dgSpecHash": "t5ozBo9lPolFq5l6F1xXbwzRHaoDkcOIyCGoLnVtl67iIOg5DiZUsK7+S/lvFWax0R7HAP7OzEfvj83aRUPFMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emir-sator\\Desktop\\final\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj",
+  "projectFilePath": "C:\\Users\\emir-sator\\Documents\\GitHub\\SofthouseTask\\SofthouseTaskAPI\\SofthouseTask.RestSharp\\SofthouseTask.RestSharp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emir-sator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\emir-sator\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",

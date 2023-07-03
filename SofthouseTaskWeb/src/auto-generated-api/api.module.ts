@@ -7,7 +7,6 @@ import { ApiConfiguration, ApiConfigurationParams } from './api-configuration';
 import { DogService } from './services/dog.service';
 import { FavouriteService } from './services/favourite.service';
 import { JsonFileService } from './services/json-file.service';
-import { WeatherForecastService } from './services/weather-forecast.service';
 
 /**
  * Module that provides all services and configuration.
@@ -20,7 +19,6 @@ import { WeatherForecastService } from './services/weather-forecast.service';
     DogService,
     FavouriteService,
     JsonFileService,
-    WeatherForecastService,
     ApiConfiguration
   ],
 })

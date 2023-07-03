@@ -58,13 +58,7 @@ namespace SofthouseTask.Services.Services
         {
             try
             {
-                // try to convert without anonymous type
-                var body = new
-                {
-                    image_id = request.ImageId,
-                    sub_id = request.SubId,
-
-                };
+                var body = JsonConvert.SerializeObject(request);
 
                 //Create a request using the request builder method
                 var apiRequest = new PostRequestBuilder()

@@ -46,3 +46,15 @@ C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.D
 C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\obj\Debug\net6.0\refint\SofthouseTask.DTO.dll
 C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\obj\Debug\net6.0\SofthouseTask.DTO.pdb
 C:\Users\emir-sator\Desktop\final\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\obj\Debug\net6.0\ref\SofthouseTask.DTO.dll
+C:\Users\emir-sator\Documents\GitHub\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\bin\Debug\net6.0\SofthouseTask.DTO.deps.json
+C:\Users\emir-sator\Documents\GitHub\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\bin\Debug\net6.0\SofthouseTask.DTO.dll
+C:\Users\emir-sator\Documents\GitHub\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\bin\Debug\net6.0\SofthouseTask.DTO.pdb
+C:\Users\emir-sator\Documents\GitHub\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\obj\Debug\net6.0\SofthouseTask.DTO.csproj.AssemblyReference.cache
+C:\Users\emir-sator\Documents\GitHub\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\obj\Debug\net6.0\SofthouseTask.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emir-sator\Documents\GitHub\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\obj\Debug\net6.0\SofthouseTask.DTO.AssemblyInfoInputs.cache
+C:\Users\emir-sator\Documents\GitHub\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\obj\Debug\net6.0\SofthouseTask.DTO.AssemblyInfo.cs
+C:\Users\emir-sator\Documents\GitHub\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\obj\Debug\net6.0\SofthouseTask.DTO.csproj.CoreCompileInputs.cache
+C:\Users\emir-sator\Documents\GitHub\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\obj\Debug\net6.0\SofthouseTask.DTO.dll
+C:\Users\emir-sator\Documents\GitHub\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\obj\Debug\net6.0\refint\SofthouseTask.DTO.dll
+C:\Users\emir-sator\Documents\GitHub\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\obj\Debug\net6.0\SofthouseTask.DTO.pdb
+C:\Users\emir-sator\Documents\GitHub\SofthouseTask\SofthouseTaskAPI\SofthouseTask.DTO\obj\Debug\net6.0\ref\SofthouseTask.DTO.dll

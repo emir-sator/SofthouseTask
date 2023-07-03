@@ -3,7 +3,7 @@
     min-width: 350px;
 }
 
-::ng-deep .mdc-snackbar__surface{
+::ng-deep .mdc-snackbar__surface {
     padding-right: 0px !important;
 }
 
@@ -11,23 +11,23 @@
     padding: 8px !important;
 }
 
-::ng-deep .mdc-snackbar__label .alert-success {
-    background-color: rgba(0,200,83, .8);
+::ng-deep .alert-success .mdc-snackbar__label {
+    background-color: rgba(0, 200, 83, .8);
     color: #fff;
 }
 
-::ng-deep .alert-error {
-    background-color: rgba(213,0,0, .8);
+::ng-deep .alert-error .mdc-snackbar__label {
+    background-color: rgba(213, 0, 0, .8);
     color: #fff;
 }
 
-::ng-deep .alert-info {
-    background-color: rgba(33,150,243, .8);
+::ng-deep .alert-info .mdc-snackbar__label {
+    background-color: rgba(33, 150, 243, .8);
     color: #fff;
 }
 
-::ng-deep .alert-warning {
-    background-color: rgba(255,214,0, .8);
+::ng-deep .alert-warning .mdc-snackbar__label {
+    background-color: rgba(255, 214, 0, .8);
     color: #000;
 }
 
